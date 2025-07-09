@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+h1 {
+  text-align: center;
+  margin: 16px 0;
+}
+
+h2 {
+  margin: 8px 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+ul,
+ol {
+  margin-left: 64px;
+}
+
+a {
+  color: #aaf;
+}
